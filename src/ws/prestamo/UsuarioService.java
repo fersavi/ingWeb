@@ -14,7 +14,6 @@ import org.springframework.stereotype.Component;
 
 import logicaNegocio.UsuarioBL;
 import dto.Usuario;
-import dto.UsuarioKey;
 import exception.HibernateGettingException;
 import ws.dto.UsuarioWS;
 
