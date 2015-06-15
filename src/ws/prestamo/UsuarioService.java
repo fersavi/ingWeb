@@ -28,7 +28,8 @@ public class UsuarioService {
 	@Autowired
 	private UsuarioBL usuarioBL;
 	 
-	@Produces(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_XML_VALUE)
+	@Path("obtener")
 	@GET
 	public List<UsuarioWS> obtenerUsuarios () throws RemoteException{
 		
