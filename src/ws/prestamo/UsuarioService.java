@@ -37,7 +37,7 @@ public class UsuarioService {
 		 * */
 		List<UsuarioWS> listaUsuarios = new ArrayList<UsuarioWS>();
 		/**
-		 * variable que obtiene los cliente existentes
+		 * variable que obtiene los cliente existentes .
 		 * */
 		List<Usuario> usuarios = null;     
 		try {
