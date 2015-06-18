@@ -5,7 +5,7 @@
         <dependent-module archiveName="PrestamoDispositivosV5.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/PrestamoDispositivosV5/PrestamoDispositivosV5">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="context-root" value="PrestamoDspositivoV6"/>
         <property name="java-output-path" value="/PrestamoDspositivoV6/build/classes"/>
+        <property name="context-root" value="ingWeb"/>
     </wb-module>
 </project-modules>

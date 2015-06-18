@@ -10,24 +10,18 @@ import dto.CategoriaDispositivo;
 @XmlRootElement
 public class DispositivoWS {
 	private int id; //Id del dispositivo
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
 	private CategoriaDispositivo categoria; //Categoría del dispositivo
 	private String estado; //prestado o disponibles
 	private String descripcion; //Descripción del dispositivo
 	private String marca; //Marca del dispositivo
-	
-	/*
-	 * Obtener id del dispositivo
-	 */
-	public int getId() {
-		return id;
-	}
-	
-	/*
-	 * Asignar id al dispositivo
-	 */
-	public void setId(int id) {
-		this.id = id;
-	}
 	
 	/*
 	 * Obtener categoria del dispositivo
